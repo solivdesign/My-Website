@@ -1,0 +1,66 @@
+/* reset */
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ol,
+ul,
+li,
+img,
+a,
+table,
+td,
+blockquote,
+figure,
+figcaption,
+audio,
+header,
+nav,
+main,
+footer,
+article,
+input,
+textarea,
+select,
+span,
+form {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-y: scroll;
+  background-color: #ebebe3;
+  height: 100%;
+  background: url(../images/bronze.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+header {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 6rem;
+}
+header #site-logo {
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+}
+article {
+  display: block;
+  position: relative;
+}
+article figure.width-full {
+  width: 100%;
+}
+article figure.width-full img {
+  width: 100%;
+  max-width: none;
+}

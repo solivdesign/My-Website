@@ -1,2 +1,2 @@
 # My Website
- A website for solivdesign.com
+ A minimal website for solivdesign.com
